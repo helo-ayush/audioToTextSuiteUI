@@ -291,7 +291,7 @@ export default function Diarization() {
                       {saveResult.analysis?.satisfactionScore !== undefined && (
                         <div className="bg-gradient-to-b from-white/90 to-white/50 p-5 rounded-2xl border border-white shadow-sm">
                           <h4 className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-2">Satisfaction</h4>
-                          <p className="text-3xl font-black text-emerald-500">{saveResult.analysis.satisfactionScore}<span className="text-xl text-slate-400 font-medium">/5</span></p>
+                          <p className="text-3xl font-black text-emerald-500">{saveResult.analysis.satisfactionScore}<span className="text-xl text-slate-400 font-medium">/10</span></p>
                         </div>
                       )}
                       
